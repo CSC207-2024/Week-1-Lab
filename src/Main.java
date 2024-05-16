@@ -4,5 +4,6 @@ public class Main {
         FizzBuzz.main(args);
         // or
 //        FizzBuzz.main(new String[0]);
+        assert FizzBuzz.mainV1().equals(FizzBuzz.mainV2());
     }
-}
+}[]
