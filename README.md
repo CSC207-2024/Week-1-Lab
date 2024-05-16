@@ -325,7 +325,7 @@ on GitHub.
 This change has now been made on GitHub,
 but your local copy doesn't know about the change yet.
 
-- [ ] In IntelliJ, you can either click the `Git` menu and choose `Pull...`,
+- [ x ] In IntelliJ, you can either click the `Git` menu and choose `Pull...`,
   or you can run `git pull` from the Terminal tab. Once you have done the pull, you should see that commit show up in
   your local repository.
 
