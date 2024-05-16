@@ -10,7 +10,7 @@ class FizzBuzz {
         }
     }
 
-    private static int next(int i) {
+    public static int next(int i) {
         if (i % 3 == 0 && i % 5 == 0) {
             System.out.println("FizzBuzz");
         } else if (i % 3 == 0) {
