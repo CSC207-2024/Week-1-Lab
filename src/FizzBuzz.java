@@ -10,7 +10,7 @@ class FizzBuzz {
     }
 
     public static ArrayList<String> mainV1() {
-        ArrayList<String> collector = new ArrayList<String>();
+        ArrayList<String> collector = new ArrayList<>();
         int i = 1;
         while (i < 100) {
             i = next(i, collector);
@@ -19,7 +19,7 @@ class FizzBuzz {
     }
 
     public static ArrayList<String> mainV2() {
-        ArrayList<String> collector = new ArrayList<String>();
+        ArrayList<String> collector = new ArrayList<>();
         for (int i = 1; i < 100; ++i) {
             next(i, collector);
         }
