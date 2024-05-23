@@ -34,16 +34,16 @@ class FizzBuzz {
     public static int next(int i, ArrayList<String> collector) {
         if (i % 3 == 0 && i % 5 == 0) {
             printAdd("FizzBuzz", collector);
-//            System.out.println("FizzBuzz");
+            // System.out.println("FizzBuzz");
         } else if (i % 3 == 0) {
             printAdd("Fizz", collector);
-//            System.out.println("Fizz");
+            // System.out.println("Fizz");
         } else if (i % 5 == 0) {
             printAdd("Buzz", collector);
-//            System.out.println("Buzz");
+            // System.out.println("Buzz");
         } else {
             printAdd(i, collector);
-//            System.out.println(i);
+            // System.out.println(i);
         }
         i += 1;
         return i;
